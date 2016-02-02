@@ -16,7 +16,7 @@ public class InitBlocks {
 	
 	public static void init(){
 		Xonim_block = new  Xonim_block(Material.iron).setUnlocalizedName("Xonim_block");
-		Boss_portal = new Boss_Portal(Material.portal).setUnlocalizedName("Boss_portal");
+		Boss_portal = new Boss_Portal().setUnlocalizedName("Boss_portal");
 	}
 	
 	public static void register(){
